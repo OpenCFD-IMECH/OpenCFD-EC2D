@@ -1,0 +1,29 @@
+ 2D BC file for multi-block mesh:  RAE2822
+ # Blocks
+          3
+ Block            1
+ Subface
+  4
+ f_no, face, istart,iend, jstart, jend,  neighb, subface orient
+     1     1     1     1     1    65    -20     0     0
+     2     2     1    33     1     1     3      2     3
+     3     3     33   33     1     65    2      1     2
+     4     4     1    33     65    65   -20     0     0
+ Block            2
+ Subface
+  4
+ f_no, face, istart,iend, jstart, jend,  neighb, subface orient
+     1     1     1    1      1    65     1     3     2
+     2     2     1    305    1    1     -10    0     0
+     3     3     305  305    1   65      3     1     2
+     4     4     1    305    65  65     -20    0     0
+ Block            3
+ Subface
+  4
+ f_no, face, istart,iend, jstart, jend,  neighb, subface orient
+     1     1     1    1     1    65       2     3     2
+     2     2     1    33    1     1       1     2     3
+     3     3     33   33    1    65      -20    0     0
+     4     4     1    33    65   65      -20    0     0
+
+# orient=2 À≥–Ú£¨∆‰À˚ƒÊ–Ú
